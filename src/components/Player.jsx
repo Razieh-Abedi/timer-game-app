@@ -10,8 +10,6 @@ export default function Player() {
     nameInputRef.current.value = "";
   };
 
-  console.log(nameInputRef);
-
   return (
     <section id="player">
       <h2>Welcome {playerName ?? "Unknown Player"}</h2>
